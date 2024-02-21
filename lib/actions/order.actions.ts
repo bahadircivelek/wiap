@@ -40,7 +40,7 @@ export const checkOutOrder = async (order: CheckoutOrderParams) => {
   }
 }
 
-export const createOeder = async (order: CreateOrderParams) => {
+export const createOrder = async (order: CreateOrderParams) => {
   try {
     await connectToDatabase();
     const newOrder = await Order.create({
