@@ -6,7 +6,7 @@ import { getAllEvents } from "@/lib/actions/event.action";
 import { SearchParamProps } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
-
+//Comment
 export default async function Home({ searchParams }: SearchParamProps) {
 
   const page = Number(searchParams?.page) || 1;
